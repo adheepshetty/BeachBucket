@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'
+        integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous'>
+    <link rel='stylesheet' href='assets/css/createfile.css'>
+</head>
+
+<body>
+    <h2 style='text-align:center;font-weight:800;font-size:40px'>Please enter source and target from one of the paths
+        that needs to be merged out</h2>
+    <form style="position:absolute;left:40%;margin-top:20px" action="/mergingout" method="get">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Enter path after abc/</span>
+            </div>
+            <input type="text" placeholder="FolderPath" aria-describedby="basic-addon1" type='text' name='sourcepath'><br>
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Enter path after checkout/</span>
+            </div>
+            <input type="text" placeholder="FolderPath" aria-describedby="basic-addon1" type='text' name='targetpath'><br>
+            </div>
+            <input style='position:inherit;left:40%' type='submit' class="btn btn-primary btn-lg active" value='Merge Out'>
+    </form>
+
+</body>
+
+</html>

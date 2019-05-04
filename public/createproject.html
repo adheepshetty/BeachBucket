@@ -1,0 +1,32 @@
+<!--author: Adheep, mit, mounil, dipesh, suraj.
+contains: code for createproject.html it is the page that is used for creating project.
+-->
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/createproject.css">
+</head>
+
+<body>
+  <div>
+    <div style = 'text-align:center;font-weight:800;font-size:40px'>Create Project</div>
+      <form style = "position:absolute;left:40%;margin-top:20px" action="/createfolder" method="get">
+        <div style='' class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Enter path after abc/</span>
+            </div>
+            <input type="text"  placeholder="FolderPath"  aria-describedby="basic-addon1" type='text' name='f1'><br>
+            </div>
+            <input style='position:inherit;left:40%' type='submit' class="btn btn-primary btn-lg active"  value='submit'>
+      </form>
+  </div>
+</body>
+
+</html>

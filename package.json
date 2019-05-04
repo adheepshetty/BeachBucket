@@ -1,0 +1,31 @@
+{
+  "name": "ase",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookies": "^0.7.3",
+    "ejs": "^2.6.1",
+    "esm": "^3.0.84",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "fs-extra": "^7.0.1",
+    "js-cookie": "^2.2.0",
+    "klaw": "^3.0.0",
+    "klaw-sync": "^6.0.0",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "readdirp": "^2.2.1",
+    "recursive-readdir-sync": "^1.0.6",
+    "through2": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "keywords": [],
+  "description": ""
+}
